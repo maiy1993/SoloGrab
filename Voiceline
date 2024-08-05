@@ -63,7 +63,7 @@ end
 Tab:AddButton({
 	Name = "Yowai Mo",
 	Callback = function()
-      		CustomNeck.Chat("Ryoiki Tenkai")  
+      		CustomNeck.Chat("Yowai Mo")  
 
   CustomNeck.Play(7147847068)
 wait(0.1465)
