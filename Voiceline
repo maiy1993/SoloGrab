@@ -93,3 +93,14 @@ wait(4.807)
 CustomNeck.StopAudio()
 end
 })
+
+Tab:AddButton({
+	Name = "Diavolo Illusion",
+	Callback = function()
+      		CustomNeck.Chat("YOU'VE FALLEN UNDER THE ILLUSION AND NOW YOU THINK YOU CAN DEFEAT ME?")  
+
+  CustomNeck.Play(3124759993)
+wait(6.765)
+CustomNeck.StopAudio()
+end
+})
