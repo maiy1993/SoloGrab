@@ -70,3 +70,14 @@ wait(0.1465)
 CustomNeck.StopAudio()
 end
 })
+
+Tab:AddButton({
+	Name = "King crimson",
+	Callback = function()
+      		CustomNeck.Chat("KORE GA WAGA KING CRIMSON NO NOURYOKU!")  
+
+  CustomNeck.Play(3124759993)
+wait(0.4108)
+CustomNeck.StopAudio()
+end
+})
