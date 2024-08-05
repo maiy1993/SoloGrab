@@ -81,3 +81,15 @@ wait(4.108)
 CustomNeck.StopAudio()
 end
 })
+
+
+Tab:AddButton({
+	Name = "Idk but sigma",
+	Callback = function()
+      		
+
+  CustomNeck.Play(8885220577)
+wait(4.807)
+CustomNeck.StopAudio()
+end
+})
