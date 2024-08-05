@@ -66,7 +66,7 @@ Tab:AddButton({
       		CustomNeck.Chat("Yowai Mo")  
 
   CustomNeck.Play(7147847068)
-wait(0.1465)
+wait(1.465)
 CustomNeck.StopAudio()
 end
 })
@@ -77,7 +77,7 @@ Tab:AddButton({
       		CustomNeck.Chat("KORE GA WAGA KING CRIMSON NO NOURYOKU!")  
 
   CustomNeck.Play(3124759993)
-wait(0.4108)
+wait(4.108)
 CustomNeck.StopAudio()
 end
 })
