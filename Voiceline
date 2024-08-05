@@ -59,3 +59,14 @@ wait(1.509)
 CustomNeck.StopAudio()
 end
 })
+
+Tab:AddButton({
+	Name = "Yowai Mo",
+	Callback = function()
+      		CustomNeck.Chat("Ryoiki Tenkai")  
+
+  CustomNeck.Play(7147847068)
+wait(0.1465)
+CustomNeck.StopAudio()
+end
+})
