@@ -34,7 +34,7 @@ Name = <string> - The name of the section.
 ]]
 
 Tab:AddButton({
-	Name = "Voice line",
+	Name = "Yare Yare Daze.",
 	Callback = function()
       		CustomNeck.Chat("Yare Yare Daze.")  
 
@@ -48,3 +48,14 @@ CustomNeck.StopAudio()
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddButton({
+	Name = "Ryoiki Tenkai",
+	Callback = function()
+      		CustomNeck.Chat("Ryoiki Tenkai")  
+
+  CustomNeck.Play(7817341182)
+wait(1.123)
+CustomNeck.StopAudio()
+end
+
