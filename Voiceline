@@ -55,7 +55,7 @@ Tab:AddButton({
       		CustomNeck.Chat("Ryoiki Tenkai")  
 
   CustomNeck.Play(7817341182)
-wait(1.123)
+wait(1.509)
 CustomNeck.StopAudio()
 end
 })
