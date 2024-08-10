@@ -106,3 +106,16 @@ wait(6.765)
 CustomNeck.StopAudio()
 end
 })
+
+Tab:AddButton({
+	Name = "Diavolo Illusion",
+	Callback = function()
+    CustomNeck.AnimPlay({
+        AnimationId = 16768625968, 
+        -- // This is all Optionial \\--
+        Speed = 1, 
+        Time = 4,
+        Smoothing = 2 
+    })
+end)
+})
