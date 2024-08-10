@@ -108,14 +108,14 @@ end
 })
 
 Tab:AddButton({
-	Name = "Diavolo Illusion",
+	Name = "Niaa",
 	Callback = function()
-    CustomNeck.AnimPlay({
+    CustomNeck.AnimPlay
         AnimationId = 16768625968, 
         -- // This is all Optionial \\--
         Speed = 1, 
         Time = 4,
         Smoothing = 2 
-    })
-end)
+    
+end
 })
