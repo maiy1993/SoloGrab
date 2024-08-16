@@ -38,7 +38,7 @@ Tab:AddButton({
 	Callback = function()
       		CustomNeck.Chat("Yare Yare Daze.")  
 
-  CustomNeck.Play(1756666832)
+  CustomNeck.Play(4605143996)
 wait(1.123)
 CustomNeck.StopAudio()
   	end    
@@ -107,15 +107,4 @@ CustomNeck.StopAudio()
 end
 })
 
-Tab:AddButton({
-	Name = "Niaa",
-	Callback = function()
-    CustomNeck.AnimPlay
-        AnimationId = 16768625968, 
-        -- // This is all Optionial \\--
-        Speed = 1, 
-        Time = 4,
-        Smoothing = 2 
-    
-end
-})
+
